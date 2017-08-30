@@ -156,7 +156,8 @@ if (empty($pageid)) {
                             'center leftduring');
                 }
             } else {
-                echo $lessonoutput->continue_links($lesson, $lastpageseen);
+                $yeslink = new moodle_url('/mod/lesson/view.php', array('id'=>$cm->id, 'pageid'=>$lastpageseen, 'startlastseen'=>'yes'));
+		redirect($yeslink, get_string("redirtolastlessonpage", "lesson"));
             }
             echo $lessonoutput->footer();
             exit();
