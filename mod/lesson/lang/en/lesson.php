@@ -25,6 +25,7 @@
 
 //time spent in lesson string
 $string['totaltimespent'] = 'You have study for: {$a}';
+$string['redirtolastlessonpage'] = 'You have already seen more than one page in this lesson.<br><b>You are about to be redirected to the last page you visited...</b><br>If the page does not open within 10 seconds, press Continue'
 
 $string['accesscontrol'] = 'Access control';
 $string['actionaftercorrectanswer'] = 'Action after correct answer';
