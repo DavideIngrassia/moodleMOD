@@ -23,6 +23,9 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+//time spent in lesson string
+$string['totaltimespent'] = 'You have study for: {$a}';
+
 $string['accesscontrol'] = 'Access control';
 $string['actionaftercorrectanswer'] = 'Action after correct answer';
 $string['actionaftercorrectanswer_help'] = 'After answering a question correctly, there are 3 options for the following page:
